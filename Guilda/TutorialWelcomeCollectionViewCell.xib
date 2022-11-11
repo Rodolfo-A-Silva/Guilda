@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="FlL-9P-efR" customClass="TutorialWelcomeCollectionViewCell" customModule="Guilda" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="730"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="oTZ-Ti-ST8">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="730"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_welcome_top" translatesAutoresizingMaskIntoConstraints="NO" id="QX5-QK-90u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="166"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to your CNCT account" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBM-FN-7mI">
+                        <rect key="frame" x="24" y="192" width="358" height="67"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover the main functions of your account or start using it right away." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EtF-aG-7qb">
+                        <rect key="frame" x="24" y="275" width="366" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="jBM-FN-7mI" firstAttribute="top" secondItem="QX5-QK-90u" secondAttribute="bottom" constant="26" id="AIg-vk-I9F"/>
+                    <constraint firstItem="QX5-QK-90u" firstAttribute="top" secondItem="oTZ-Ti-ST8" secondAttribute="top" id="JGA-4W-1w4"/>
+                    <constraint firstAttribute="trailing" secondItem="EtF-aG-7qb" secondAttribute="trailing" constant="24" id="MC1-bW-3ed"/>
+                    <constraint firstItem="jBM-FN-7mI" firstAttribute="leading" secondItem="oTZ-Ti-ST8" secondAttribute="leading" constant="24" id="Nrr-YS-KDK"/>
+                    <constraint firstItem="QX5-QK-90u" firstAttribute="leading" secondItem="oTZ-Ti-ST8" secondAttribute="leading" id="R81-Pp-wuA"/>
+                    <constraint firstItem="EtF-aG-7qb" firstAttribute="top" secondItem="jBM-FN-7mI" secondAttribute="bottom" constant="16" id="YO5-wg-Y3b"/>
+                    <constraint firstAttribute="trailing" secondItem="jBM-FN-7mI" secondAttribute="trailing" constant="32" id="aHw-xH-oYS"/>
+                    <constraint firstItem="EtF-aG-7qb" firstAttribute="leading" secondItem="oTZ-Ti-ST8" secondAttribute="leading" constant="24" id="iR7-id-4LN"/>
+                    <constraint firstAttribute="trailing" secondItem="QX5-QK-90u" secondAttribute="trailing" id="jG5-Hq-bR0"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="414" height="730"/>
+            <connections>
+                <outlet property="contentLabel" destination="EtF-aG-7qb" id="fs8-Kb-D4z"/>
+                <outlet property="titleLabel" destination="jBM-FN-7mI" id="6Dq-b5-pPk"/>
+            </connections>
+            <point key="canvasLocation" x="317.39130434782612" y="334.82142857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="tutorial_welcome_top" width="375" height="166"/>
+    </resources>
+</document>
