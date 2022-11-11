@@ -44,6 +44,16 @@
 		4F46BCD328774BE1004951A5 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46BCCE28774BE1004951A5 /* UIColor+Colors.swift */; };
 		4F46BCD428774BE1004951A5 /* UIButton+Underline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46BCCF28774BE1004951A5 /* UIButton+Underline.swift */; };
 		4F46BCD728774BFB004951A5 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46BCD628774BFB004951A5 /* CodeView.swift */; };
+		4F765ED3291DEB5000240DBA /* ViewControllerT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED2291DEB5000240DBA /* ViewControllerT.swift */; };
+		4F765EDC291DEB8700240DBA /* ReceiptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED6291DEB8700240DBA /* ReceiptCell.swift */; };
+		4F765EDD291DEB8700240DBA /* ReceiptWhoPaidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED7291DEB8700240DBA /* ReceiptWhoPaidCell.swift */; };
+		4F765EDE291DEB8700240DBA /* ReceiptWhoSentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED8291DEB8700240DBA /* ReceiptWhoSentCell.swift */; };
+		4F765EDF291DEB8700240DBA /* TransactionCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED9291DEB8700240DBA /* TransactionCodeCell.swift */; };
+		4F765EE0291DEB8700240DBA /* ReceiptAboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EDA291DEB8700240DBA /* ReceiptAboutCell.swift */; };
+		4F765EE1291DEB8700240DBA /* ReceiptDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EDB291DEB8700240DBA /* ReceiptDescriptionCell.swift */; };
+		4F765EE3291DEC2E00240DBA /* ReceiptHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EE2291DEC2E00240DBA /* ReceiptHeader.swift */; };
+		4F765EE6291DECD100240DBA /* ControllerUIViewT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */; };
+		4F765EE8291DEDD300240DBA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EE7291DEDD300240DBA /* UIView.swift */; };
 		4F9077E0291C942D001EE681 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9077DF291C942D001EE681 /* StackViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +97,16 @@
 		4F46BCCE28774BE1004951A5 /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
 		4F46BCCF28774BE1004951A5 /* UIButton+Underline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Underline.swift"; sourceTree = "<group>"; };
 		4F46BCD628774BFB004951A5 /* CodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		4F765ED2291DEB5000240DBA /* ViewControllerT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerT.swift; sourceTree = "<group>"; };
+		4F765ED6291DEB8700240DBA /* ReceiptCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptCell.swift; sourceTree = "<group>"; };
+		4F765ED7291DEB8700240DBA /* ReceiptWhoPaidCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptWhoPaidCell.swift; sourceTree = "<group>"; };
+		4F765ED8291DEB8700240DBA /* ReceiptWhoSentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptWhoSentCell.swift; sourceTree = "<group>"; };
+		4F765ED9291DEB8700240DBA /* TransactionCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCodeCell.swift; sourceTree = "<group>"; };
+		4F765EDA291DEB8700240DBA /* ReceiptAboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptAboutCell.swift; sourceTree = "<group>"; };
+		4F765EDB291DEB8700240DBA /* ReceiptDescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptDescriptionCell.swift; sourceTree = "<group>"; };
+		4F765EE2291DEC2E00240DBA /* ReceiptHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptHeader.swift; sourceTree = "<group>"; };
+		4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerUIViewT.swift; sourceTree = "<group>"; };
+		4F765EE7291DEDD300240DBA /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		4F9077DF291C942D001EE681 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +157,7 @@
 		4F3091E928B6FE4600111909 /* application */ = {
 			isa = PBXGroup;
 			children = (
+				4F765ED1291DEB2800240DBA /* Jardel */,
 				4F9077DE291C9405001EE681 /* StackView */,
 				4F3EE27928C6A72A006C9816 /* EditProfile */,
 				4F2FF81228B7A47A00DAFF1B /* Tutorial */,
@@ -256,6 +277,7 @@
 				4F46BCCC28774BE1004951A5 /* UIColor+Hex.swift */,
 				4F46BCCB28774BE1004951A5 /* UIView+Corners.swift */,
 				4F46BCCD28774BE1004951A5 /* UIView+DorpShadow.swift */,
+				4F765EE7291DEDD300240DBA /* UIView.swift */,
 			);
 			name = Entensions;
 			sourceTree = "<group>";
@@ -297,6 +319,38 @@
 				4F46BCB2287747C1004951A5 /* AppDelegate.swift */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		4F765ED1291DEB2800240DBA /* Jardel */ = {
+			isa = PBXGroup;
+			children = (
+				4F765EE4291DECB800240DBA /* View */,
+				4F765ED5291DEB6E00240DBA /* Cell */,
+				4F765ED2291DEB5000240DBA /* ViewControllerT.swift */,
+				4F765EE2291DEC2E00240DBA /* ReceiptHeader.swift */,
+			);
+			name = Jardel;
+			sourceTree = "<group>";
+		};
+		4F765ED5291DEB6E00240DBA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4F765EDA291DEB8700240DBA /* ReceiptAboutCell.swift */,
+				4F765ED6291DEB8700240DBA /* ReceiptCell.swift */,
+				4F765EDB291DEB8700240DBA /* ReceiptDescriptionCell.swift */,
+				4F765ED7291DEB8700240DBA /* ReceiptWhoPaidCell.swift */,
+				4F765ED8291DEB8700240DBA /* ReceiptWhoSentCell.swift */,
+				4F765ED9291DEB8700240DBA /* TransactionCodeCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4F765EE4291DECB800240DBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		4F9077DE291C9405001EE681 /* StackView */ = {
@@ -389,6 +443,9 @@
 				4F3091C028B6F83800111909 /* ViewController3.swift in Sources */,
 				4F3EE27B28C6A75B006C9816 /* EditProfileController.swift in Sources */,
 				4F46BCB7287747C1004951A5 /* ViewController.swift in Sources */,
+				4F765ED3291DEB5000240DBA /* ViewControllerT.swift in Sources */,
+				4F765EE8291DEDD300240DBA /* UIView.swift in Sources */,
+				4F765EDC291DEB8700240DBA /* ReceiptCell.swift in Sources */,
 				4F3EE28228C6A9D9006C9816 /* MaskTextField.swift in Sources */,
 				4F46BCD328774BE1004951A5 /* UIColor+Colors.swift in Sources */,
 				4F3091BC28B6F7E200111909 /* ViewController1.swift in Sources */,
@@ -399,16 +456,23 @@
 				4F3091BE28B6F80C00111909 /* ViewController2.swift in Sources */,
 				4F3EE28028C6A792006C9816 /* EditProfileControllerView.swift in Sources */,
 				4F3091F028B6FF9200111909 /* OnboardingViewController.swift in Sources */,
+				4F765EDD291DEB8700240DBA /* ReceiptWhoPaidCell.swift in Sources */,
 				4F46BCD428774BE1004951A5 /* UIButton+Underline.swift in Sources */,
 				4F3EE28C28C6AB4C006C9816 /* EditProfileControllerViewModel.swift in Sources */,
 				4F46BCD028774BE1004951A5 /* UIView+Corners.swift in Sources */,
+				4F765EE1291DEB8700240DBA /* ReceiptDescriptionCell.swift in Sources */,
 				4F2FF82028B7A72000DAFF1B /* TutorialContentCollectionViewCell.swift in Sources */,
 				4F2FF81728B7A50700DAFF1B /* TutorialViewController.swift in Sources */,
+				4F765EDF291DEB8700240DBA /* TransactionCodeCell.swift in Sources */,
 				4F3091EC28B6FEC500111909 /* DemoViewController.swift in Sources */,
 				4F46BCD128774BE1004951A5 /* UIColor+Hex.swift in Sources */,
 				4F3091F228B7006800111909 /* LoginViewController.swift in Sources */,
+				4F765EE3291DEC2E00240DBA /* ReceiptHeader.swift in Sources */,
+				4F765EE6291DECD100240DBA /* ControllerUIViewT.swift in Sources */,
 				4F3EE28528C6AA2F006C9816 /* StringMask.swift in Sources */,
 				4F46BCC92877496F004951A5 /* ControllerUIView.swift in Sources */,
+				4F765EE0291DEB8700240DBA /* ReceiptAboutCell.swift in Sources */,
+				4F765EDE291DEB8700240DBA /* ReceiptWhoSentCell.swift in Sources */,
 				4F46BCD228774BE1004951A5 /* UIView+DorpShadow.swift in Sources */,
 				4F9077E0291C942D001EE681 /* StackViewController.swift in Sources */,
 				4F3EE28728C6AA81006C9816 /* String+Empty.swift in Sources */,
