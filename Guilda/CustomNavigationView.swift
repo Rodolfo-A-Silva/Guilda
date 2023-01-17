@@ -5,15 +5,17 @@
 //  Created by rodolfo silva on 14/01/23.
 //
 import UIKit
-
+    //-- Delegate
 //protocol ButtonDelegate: AnyObject {
 //    func onTap()
 //}
 
 class CustomNavigationView: UIView {
-    
+    //-- Delegate
   //weak var viewDelegate: ButtonDelegate?
-    var backButtonTapped: (() -> Void)?
+    
+    //-- Closure
+  //  var backButtonTapped: (() -> Void)?
     
     // MARK: - View's
     lazy var backButton: UIButton = {
@@ -22,7 +24,7 @@ class CustomNavigationView: UIView {
         button.setImage(image, for: UIControl.State())
         button.tintColor = .blue
         button.isHidden = false
-        button.addTarget(self, action: #selector(goToBack), for: .touchUpInside)
+      //  button.addTarget(self, action: #selector(goToBack), for: .touchUpInside)
         return button
     }()
     
@@ -55,17 +57,20 @@ class CustomNavigationView: UIView {
                           height: 20)
     }
     
-    @objc func goToBack() {
-        backButtonTapped?()
+    //-- Closure ou delegate
+ //   @objc func goToBack() {
+         //-- Closure
+      //  backButtonTapped?()
+        
+        //-- Delegate
      //  viewDelegate?.onTap()
         
-    }
+ //   }
     
-//    func methodBack(completionBlock: () -> Void) {
-//
-//          print("block_Completion")
-//          completionBlock()
-//    }
+//-- Completion
+    func methodBack(nome: String, completionBlock: @escaping(String, Bool) -> Void) {
+        completionBlock("Silva", true)
+    }
 }
 
 

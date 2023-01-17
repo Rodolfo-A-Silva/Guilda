@@ -88,17 +88,12 @@ class EditProfileController: UIViewController {
     
     @objc func buttonSavePressed() {
         //viewModel.buttonSave()
-        
-        
         guard let firstName = editProfileControllerView?.textFielFirstName.text,
               let lastName = editProfileControllerView?.textFieldLastName.text,
               let jobTitle = editProfileControllerView?.textFieldEmail.text
                 //let currentlyLive = registrationCompleteView?.textFieldCurrentlyLive.text
         else { return }
-        
-    }
-    
-    
+    }  
 }
 
 extension EditProfileController: UITextFieldDelegate {

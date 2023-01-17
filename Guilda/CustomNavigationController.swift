@@ -23,12 +23,10 @@ class CustomNavigationController: UIViewController {
         view.addSubview(button)
     }
     
+    // MARK: - Func
     @objc func clickToMe(sender: UIButton) {
         print("Open New Controller")
         let vc = ViewControllerTeste2()
         self.navigationController?.pushViewController(vc, animated: true)
     }
-
-    // MARK: - Navigation
-
 }
