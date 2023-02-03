@@ -5,32 +5,32 @@
 //  Created by rodolfo silva on 05/09/22.
 //
 import UIKit
-import SwiftUI
-
-struct ViewPreview: UIViewRepresentable {
-    let viewBuilder: () -> UIView
-    
-    init(_ viewBuilder: @escaping () -> UIView) {
-        self.viewBuilder = viewBuilder
-    }
-    
-    func makeUIView(context: Context) -> some UIView {
-        viewBuilder()
-    }
-    
-    func updateUIView(_ uiView: UIViewType, context: Context) {
-        // Nothing here
-    }
-}
-
-struct ProFileViewController: PreviewProvider {
-    static var previews: some View {
-        ViewPreview {
-            EditProfileControllerView()
-            
-        }
-    }
-}
+//import SwiftUI
+//
+//struct ViewPreview: UIViewRepresentable {
+//    let viewBuilder: () -> UIView
+//
+//    init(_ viewBuilder: @escaping () -> UIView) {
+//        self.viewBuilder = viewBuilder
+//    }
+//
+//    func makeUIView(context: Context) -> some UIView {
+//        viewBuilder()
+//    }
+//
+//    func updateUIView(_ uiView: UIViewType, context: Context) {
+//        // Nothing here
+//    }
+//}
+//
+//struct ProFileViewController: PreviewProvider {
+//    static var previews: some View {
+//        ViewPreview {
+//            EditProfileControllerView()
+//
+//        }
+//    }
+//}
 
 class EditProfileControllerView: UIView, UITextViewDelegate {
     
