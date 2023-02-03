@@ -9,25 +9,23 @@ import UIKit
 
 class ViewControllerT: UIViewController {
     
+    
     let controllerUIView = ControllerUIViewT()
     
     override func loadView() {
         self.view = controllerUIView
-        controllerUIView.tableview.delegate = self
-        controllerUIView.tableview.dataSource = self
-        controllerUIView.tableview.separatorStyle = UITableViewCell.SeparatorStyle.none
+ 
         
-       // self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         controllerUIView.tableview.register(ReceiptCell.classForCoder(), forCellReuseIdentifier: "ReceiptCell")
+        controllerUIView.tableview.register(ReceiptScheduleCell.classForCoder(), forCellReuseIdentifier: "ReceiptScheduleCell")
         controllerUIView.tableview.register(ReceiptAboutCell.classForCoder(), forCellReuseIdentifier: "ExtractAboutCell")
         controllerUIView.tableview.register(ReceiptDescriptionCell.classForCoder(), forCellReuseIdentifier: "ReceiptDescriptionCell")
         controllerUIView.tableview.register(TransactionCodeCell.classForCoder(), forCellReuseIdentifier: "TransactionCodeCell")
-        controllerUIView.tableview.register(ReceiptWhoPaidCell.classForCoder(), forCellReuseIdentifier: "ReceiptWhoPaidCell")
-        controllerUIView.tableview.register(ReceiptWhoSentCell.classForCoder(), forCellReuseIdentifier: "ReceiptWhoSentCell")
+        controllerUIView.tableview.register(ReceiptDataInformationCell.classForCoder(), forCellReuseIdentifier: "ReceiptWhoPaidCell")
 
        // controllerUIView.btnNext.addTarget(self, action: #selector(nextButton), for: .touchUpInside)
     }
@@ -45,19 +43,12 @@ class ViewControllerT: UIViewController {
 
 extension ViewControllerT: UITableViewDelegate, UITableViewDataSource {
     
-//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        if section == 0 {
-//            return UITableView.automaticDimension
-//        }
-//        return 0
-//    }
-    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 6
+        return 8
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -65,7 +56,6 @@ extension ViewControllerT: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      //  self.controllerUIView.tableview.reloadData()
         
     }
     
@@ -80,51 +70,65 @@ extension ViewControllerT: UITableViewDelegate, UITableViewDataSource {
             return cell
             
         case 1:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptScheduleCell", for:
+                                                            indexPath) as? ReceiptScheduleCell else { return UITableViewCell() }
+            cell.setupCell()
+            cell.selectionStyle = .none
+            return cell
+            
+        case 2:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "ExtractAboutCell", for:
                                                             indexPath) as? ReceiptAboutCell else { return UITableViewCell() }
             cell.setupCell()
             cell.selectionStyle = .none
             return cell
             
-        case 2:
+        case 3:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptDescriptionCell", for:
                                                             indexPath) as? ReceiptDescriptionCell else { return UITableViewCell() }
             cell.setupCell()
             cell.selectionStyle = .none
             return cell
             
-        case 3:
+        case 4:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "TransactionCodeCell", for:
                                                             indexPath) as? TransactionCodeCell else { return UITableViewCell() }
             cell.setupCell()
             cell.selectionStyle = .none
             return cell
             
-        case 4:
+        case 5:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptWhoPaidCell", for:
-                                                            indexPath) as? ReceiptWhoPaidCell else { return UITableViewCell() }
-            cell.setupCell()
+                                                            indexPath) as? ReceiptDataInformationCell else { return UITableViewCell() }
+            
+           let infos = [ReceiptWhoPaid(info: "Dados do pagador", infoValue: "Jardel Oliveira"),ReceiptWhoPaid(info: "CPF", infoValue: "***.654.321***"),ReceiptWhoPaid(info: "Instituição", infoValue: "335 - Banco Digio"),ReceiptWhoPaid(info: "Dados do pagador", infoValue: "Jardel Oliveira"),ReceiptWhoPaid(info: "CPF", infoValue: "***.654.321***"),ReceiptWhoPaid(info: "Instituição", infoValue: "335 - Banco Digio")]
+            
+            cell.setupCell(title: "Quem enviou",infos: infos)
             cell.selectionStyle = .none
             return cell
             
-        case 5:
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptWhoSentCell", for:
-                                                            indexPath) as? ReceiptWhoSentCell else { return UITableViewCell() }
-            cell.setupCell()
+        case 6:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptWhoPaidCell", for:
+                                                            indexPath) as? ReceiptDataInformationCell else { return UITableViewCell() }
+            
+           let infos = [ReceiptWhoPaid(info: "Nome", infoValue: "Heitor Nascimento Souza"),ReceiptWhoPaid(info: "CNPJ", infoValue: "98.654.321/0001-10")]
+            
+            cell.setupCell(title: "Quem recebeu",infos: infos)
+            cell.selectionStyle = .none
+            return cell
+            
+        case 7:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptWhoPaidCell", for:
+                                                            indexPath) as? ReceiptDataInformationCell else { return UITableViewCell() }
+            
+           let infos = [ReceiptWhoPaid(info: "Nome", infoValue: "Heitor Nascimento Souza"),ReceiptWhoPaid(info: "CNPJ", infoValue: "98.654.321/0001-10")]
+            
+            cell.setupCell(title: "Dados do devedor",infos: infos)
             cell.selectionStyle = .none
             return cell
         default:
             return UITableViewCell()
         }
-       // return UITableViewCell()
     }
-    
-    
-//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        let headerView = ReceiptHeader()
-//        headerView.backgroundColor = .red
-//        return headerView
-//    }
-//
     
 }

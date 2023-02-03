@@ -1,5 +1,5 @@
 //
-//  ReceiptWhoSentCell.swift
+//  ReceiptWhoPaidCell.swift
 //  Guilda
 //
 //  Created by Jardel Souza on 10/11/22.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class ReceiptWhoSentCell: UITableViewCell {
+class ReceiptDataInformationCell: UITableViewCell {
 
     lazy var labelTitle: UILabel = {
         let label = UILabel()
-        label.text = "Quem recebeu"
+        label.text = ""
         return label
     }()
     
@@ -27,9 +27,11 @@ class ReceiptWhoSentCell: UITableViewCell {
         // Initialization code
     }
     
-    func setupCell() {
-        
-        let infos = ["jardel","rodolfo","santos"]
+    func setupCell(title: String, infos: [ReceiptWhoPaid]) {
+        labelTitle.text = title
+        infoStack.subviews.forEach { (view) in
+            view.removeFromSuperview()
+        }
         
         for info in infos {
             
@@ -37,11 +39,11 @@ class ReceiptWhoSentCell: UITableViewCell {
             
             let labelName = UILabel()
             labelName.textColor = .gray
-            labelName.text = "Nome"
+            labelName.text = info.info
             
             let labelNameValue = UILabel()
             labelNameValue.textAlignment = .right
-            labelNameValue.text = "\(info)"
+            labelNameValue.text = info.infoValue
             
             let lineView = UIView()
             lineView.backgroundColor = .lightGray
@@ -115,4 +117,9 @@ class ReceiptWhoSentCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+}
+
+struct ReceiptWhoPaid {
+    let info: String
+    let infoValue: String
 }

@@ -22,76 +22,7 @@ class ReceiptCell: UITableViewCell {
         return label
     }()
     
-    lazy var stackView: UIStackView = {
-        let stackView = UIStackView()
-        stackView.axis = NSLayoutConstraint.Axis.vertical
-        stackView.alignment = .center
-        stackView.distribution = .fillProportionally
-        return stackView
-    }()
-    
-    lazy var viewScheduling: UIView = {
-        let view = UIView()
-        view.backgroundColor = .lightGray
-        view.layer.cornerRadius = 10
-        view.clipsToBounds = true
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.isHidden = false
-        return view
-    }()
-    
-    lazy var labelTitleScheduling: UILabel = {
-        let label = UILabel()
-        label.numberOfLines = 0
-        label.text = "Este agendamento não garante o sucesso da transação. Confira o saldo da sua conta na data agendada."
-        return label
-    }()
-    
-    lazy var iconScheduling: UIImageView = {
-        let img = UIImageView()
-        img.backgroundColor = .red
-        return img
-    }()
-    
-    lazy var stackViewDate: UIStackView = {
-        let stackView = UIStackView()
-        stackView.axis = NSLayoutConstraint.Axis.vertical
-        stackView.alignment = .center
-        stackView.distribution = .fillProportionally
-        return stackView
-    }()
-    
-    lazy var viewDate: UIView = {
-        let view = UIView()
-        view.clipsToBounds = true
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.isHidden = false
-        return view
-    }()
-    
-    lazy var labelSchedule: UILabel = {
-        let label = UILabel()
-        label.text = "Agendado para:"
-        return label
-    }()
-    
-    lazy var labelScheduleValue: UILabel = {
-        let label = UILabel()
-        label.text = "26/10/2022"
-        return label
-    }()
-    
-    lazy var imgSchedule: UIImageView = {
-        let img = UIImageView()
-        img.backgroundColor = .black
-        return img
-    }()
-    
-    lazy var lineView: UIView = {
-        let label = UIView()
-        label.backgroundColor = .lightGray
-        return label
-    }()
+  
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -115,19 +46,14 @@ class ReceiptCell: UITableViewCell {
         setupConstrainst()
     }
     
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     func setupView() {
         contentView.addSubview(labelTitle)
         contentView.addSubview(labelDate)
-        contentView.addSubview(stackView)
-        stackView.addArrangedSubview(viewScheduling)
-        viewScheduling.addSubview(iconScheduling)
-        viewScheduling.addSubview(labelTitleScheduling)
-        contentView.addSubview(stackViewDate)
-        stackViewDate.addArrangedSubview(viewDate)
-        viewDate.addSubview(labelSchedule)
-        viewDate.addSubview(labelScheduleValue)
-        viewDate.addSubview(imgSchedule)
-        viewDate.addSubview(lineView)
     }
     
     
@@ -138,72 +64,11 @@ class ReceiptCell: UITableViewCell {
         )
         
         labelDate.Anchor(top: (labelTitle.bottomAnchor, 10),
-                         left: (contentView.leftAnchor, 20)
+                         left: (contentView.leftAnchor, 20),
+                         bottom: (contentView.bottomAnchor, 10)
         )
-        
-        stackView.Anchor(top: (labelDate.bottomAnchor, 10),
-                         left: (leftAnchor, 20),
-                         right: (rightAnchor, 20)
-        )
-
-        viewScheduling.Anchor(top: (stackView.topAnchor, 0),
-                              left: (stackView.leftAnchor, 0),
-                              right: (stackView.rightAnchor, 0)
-        )
-
-        labelTitleScheduling.Anchor(centerY: (viewScheduling.centerYAnchor, 0),
-                                    top: (viewScheduling.topAnchor, 30),
-                                    left: (iconScheduling.rightAnchor, 10),
-                                    right: (viewScheduling.rightAnchor, 10)
-        )
-        
-        iconScheduling.Anchor(centerY: (labelTitleScheduling.centerYAnchor, 0),
-                              left: (viewScheduling.leftAnchor, 10),
-                              width: 30,
-                              height: 30
-        )
-        
-        
-        stackViewDate.Anchor(top: (stackView.bottomAnchor, 10),
-                         left: (leftAnchor, 20),
-                         right: (rightAnchor, 20),
-                             bottom: (contentView.bottomAnchor, 0)
-        )
-        
-        viewDate.Anchor(top: (stackViewDate.topAnchor, 0),
-                              left: (stackViewDate.leftAnchor, 0),
-                              right: (stackViewDate.rightAnchor, 0),
-                        bottom: (stackViewDate.bottomAnchor, 0)
-        )
-        
-        imgSchedule.Anchor(centerY: (viewDate.centerYAnchor, 0),
-                              left: (viewDate.leftAnchor, 10),
-                              width: 30,
-                              height: 30
-        )
-        
-        
-        labelSchedule.Anchor(centerY: (imgSchedule.centerYAnchor, 0),
-                                    left: (imgSchedule.rightAnchor, 10)
-        )
-        
-        labelScheduleValue.Anchor(centerY: (imgSchedule.centerYAnchor, 0),
-                                  right: (viewDate.rightAnchor, 10)
-        )
-
-        lineView.Anchor(top: (labelScheduleValue.bottomAnchor, 20),
-                        left: (labelSchedule.leftAnchor, 0),
-                        right: (viewDate.rightAnchor, 0),
-                          bottom: (viewDate.bottomAnchor, 0),
-                          height: 1
-        )
-        
-        
     }
     
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
 }

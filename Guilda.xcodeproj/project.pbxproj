@@ -46,8 +46,7 @@
 		4F46BCD728774BFB004951A5 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46BCD628774BFB004951A5 /* CodeView.swift */; };
 		4F765ED3291DEB5000240DBA /* ViewControllerT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED2291DEB5000240DBA /* ViewControllerT.swift */; };
 		4F765EDC291DEB8700240DBA /* ReceiptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED6291DEB8700240DBA /* ReceiptCell.swift */; };
-		4F765EDD291DEB8700240DBA /* ReceiptWhoPaidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED7291DEB8700240DBA /* ReceiptWhoPaidCell.swift */; };
-		4F765EDE291DEB8700240DBA /* ReceiptWhoSentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED8291DEB8700240DBA /* ReceiptWhoSentCell.swift */; };
+		4F765EDD291DEB8700240DBA /* ReceiptDataInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED7291DEB8700240DBA /* ReceiptDataInformationCell.swift */; };
 		4F765EDF291DEB8700240DBA /* TransactionCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765ED9291DEB8700240DBA /* TransactionCodeCell.swift */; };
 		4F765EE0291DEB8700240DBA /* ReceiptAboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EDA291DEB8700240DBA /* ReceiptAboutCell.swift */; };
 		4F765EE1291DEB8700240DBA /* ReceiptDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EDB291DEB8700240DBA /* ReceiptDescriptionCell.swift */; };
@@ -55,6 +54,8 @@
 		4F765EE6291DECD100240DBA /* ControllerUIViewT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */; };
 		4F765EE8291DEDD300240DBA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EE7291DEDD300240DBA /* UIView.swift */; };
 		4F9077E0291C942D001EE681 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9077DF291C942D001EE681 /* StackViewController.swift */; };
+		590E32F429269944009F8C1E /* ReceiptScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E32F329269944009F8C1E /* ReceiptScheduleCell.swift */; };
+		595C4055291E81D200E85A58 /* FooterTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595C4054291E81D200E85A58 /* FooterTableview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,8 +100,7 @@
 		4F46BCD628774BFB004951A5 /* CodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		4F765ED2291DEB5000240DBA /* ViewControllerT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerT.swift; sourceTree = "<group>"; };
 		4F765ED6291DEB8700240DBA /* ReceiptCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptCell.swift; sourceTree = "<group>"; };
-		4F765ED7291DEB8700240DBA /* ReceiptWhoPaidCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptWhoPaidCell.swift; sourceTree = "<group>"; };
-		4F765ED8291DEB8700240DBA /* ReceiptWhoSentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptWhoSentCell.swift; sourceTree = "<group>"; };
+		4F765ED7291DEB8700240DBA /* ReceiptDataInformationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptDataInformationCell.swift; sourceTree = "<group>"; };
 		4F765ED9291DEB8700240DBA /* TransactionCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCodeCell.swift; sourceTree = "<group>"; };
 		4F765EDA291DEB8700240DBA /* ReceiptAboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptAboutCell.swift; sourceTree = "<group>"; };
 		4F765EDB291DEB8700240DBA /* ReceiptDescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptDescriptionCell.swift; sourceTree = "<group>"; };
@@ -108,6 +108,8 @@
 		4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerUIViewT.swift; sourceTree = "<group>"; };
 		4F765EE7291DEDD300240DBA /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		4F9077DF291C942D001EE681 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		590E32F329269944009F8C1E /* ReceiptScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScheduleCell.swift; sourceTree = "<group>"; };
+		595C4054291E81D200E85A58 /* FooterTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTableview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,9 +340,9 @@
 				4F765EDA291DEB8700240DBA /* ReceiptAboutCell.swift */,
 				4F765ED6291DEB8700240DBA /* ReceiptCell.swift */,
 				4F765EDB291DEB8700240DBA /* ReceiptDescriptionCell.swift */,
-				4F765ED7291DEB8700240DBA /* ReceiptWhoPaidCell.swift */,
-				4F765ED8291DEB8700240DBA /* ReceiptWhoSentCell.swift */,
+				4F765ED7291DEB8700240DBA /* ReceiptDataInformationCell.swift */,
 				4F765ED9291DEB8700240DBA /* TransactionCodeCell.swift */,
+				590E32F329269944009F8C1E /* ReceiptScheduleCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -349,6 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */,
+				595C4054291E81D200E85A58 /* FooterTableview.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -456,7 +459,7 @@
 				4F3091BE28B6F80C00111909 /* ViewController2.swift in Sources */,
 				4F3EE28028C6A792006C9816 /* EditProfileControllerView.swift in Sources */,
 				4F3091F028B6FF9200111909 /* OnboardingViewController.swift in Sources */,
-				4F765EDD291DEB8700240DBA /* ReceiptWhoPaidCell.swift in Sources */,
+				4F765EDD291DEB8700240DBA /* ReceiptDataInformationCell.swift in Sources */,
 				4F46BCD428774BE1004951A5 /* UIButton+Underline.swift in Sources */,
 				4F3EE28C28C6AB4C006C9816 /* EditProfileControllerViewModel.swift in Sources */,
 				4F46BCD028774BE1004951A5 /* UIView+Corners.swift in Sources */,
@@ -464,6 +467,8 @@
 				4F2FF82028B7A72000DAFF1B /* TutorialContentCollectionViewCell.swift in Sources */,
 				4F2FF81728B7A50700DAFF1B /* TutorialViewController.swift in Sources */,
 				4F765EDF291DEB8700240DBA /* TransactionCodeCell.swift in Sources */,
+				595C4055291E81D200E85A58 /* FooterTableview.swift in Sources */,
+				590E32F429269944009F8C1E /* ReceiptScheduleCell.swift in Sources */,
 				4F3091EC28B6FEC500111909 /* DemoViewController.swift in Sources */,
 				4F46BCD128774BE1004951A5 /* UIColor+Hex.swift in Sources */,
 				4F3091F228B7006800111909 /* LoginViewController.swift in Sources */,
@@ -472,7 +477,6 @@
 				4F3EE28528C6AA2F006C9816 /* StringMask.swift in Sources */,
 				4F46BCC92877496F004951A5 /* ControllerUIView.swift in Sources */,
 				4F765EE0291DEB8700240DBA /* ReceiptAboutCell.swift in Sources */,
-				4F765EDE291DEB8700240DBA /* ReceiptWhoSentCell.swift in Sources */,
 				4F46BCD228774BE1004951A5 /* UIView+DorpShadow.swift in Sources */,
 				4F9077E0291C942D001EE681 /* StackViewController.swift in Sources */,
 				4F3EE28728C6AA81006C9816 /* String+Empty.swift in Sources */,
