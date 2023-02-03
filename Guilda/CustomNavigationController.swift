@@ -13,7 +13,7 @@ class CustomNavigationController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .white
+        view.backgroundColor = .appColors(.testeColor)
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
         button.setTitle("Click to me", for: .normal)
@@ -21,12 +21,16 @@ class CustomNavigationController: UIViewController {
         button.center = view.center
         button.addTarget(self, action: #selector(clickToMe(sender:)), for: .touchUpInside)
         view.addSubview(button)
+        
+        
+        
     }
     
     // MARK: - Func
     @objc func clickToMe(sender: UIButton) {
         print("Open New Controller")
-        let vc = ViewControllerTeste2()
+       // let vc = ViewControllerTeste2()
+        let vc = PixController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -55,9 +55,24 @@
 		4F765EE6291DECD100240DBA /* ControllerUIViewT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */; };
 		4F765EE8291DEDD300240DBA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F765EE7291DEDD300240DBA /* UIView.swift */; };
 		4F9077E0291C942D001EE681 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9077DF291C942D001EE681 /* StackViewController.swift */; };
+		4FA43581298597BD00A6A859 /* SegundaViaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA43580298597BD00A6A859 /* SegundaViaController.swift */; };
+		4FA435852985984E00A6A859 /* SegundaViaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA435842985984E00A6A859 /* SegundaViaView.swift */; };
+		4FA435892985A4A800A6A859 /* PixController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA435882985A4A800A6A859 /* PixController.swift */; };
+		4FA4358D2985A50F00A6A859 /* PixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4358C2985A50F00A6A859 /* PixView.swift */; };
+		4FA4358F298D77D900A6A859 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4358E298D77D900A6A859 /* Colors.xcassets */; };
+		4FA43591298D784500A6A859 /* AssetsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA43590298D784500A6A859 /* AssetsColor.swift */; };
+		4FB0B371297C336E00EFB03B /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0B370297C336E00EFB03B /* AlertHelper.swift */; };
+		4FB0B374297C3B5D00EFB03B /* PopUpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0B373297C3B5D00EFB03B /* PopUpHelper.swift */; };
+		4FB0B377297C4F3B00EFB03B /* CustomPopupOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0B376297C4F3B00EFB03B /* CustomPopupOverlayView.swift */; };
+		4FB0B37A297C5A0500EFB03B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0B379297C5A0500EFB03B /* RegisterView.swift */; };
+		4FB0B37E297C626B00EFB03B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0B37D297C626B00EFB03B /* RegisterController.swift */; };
+		4FB0B380297C636A00EFB03B /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0B37F297C636A00EFB03B /* UIViewController+Extensions.swift */; };
+		4FB0B383297C653500EFB03B /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0B382297C653500EFB03B /* Validation.swift */; };
 		4FC4D54D29736EF800491F20 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4D54C29736EF800491F20 /* CustomNavigationController.swift */; };
 		4FC4D55129736F3700491F20 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4D55029736F3700491F20 /* CustomNavigationView.swift */; };
 		4FC4D5532973729700491F20 /* ViewControllerTeste2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4D5522973729700491F20 /* ViewControllerTeste2.swift */; };
+		4FC74B552983104F00AE2D3F /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC74B542983104F00AE2D3F /* PopUpViewController.swift */; };
+		4FC74B572983531200AE2D3F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC74B562983531200AE2D3F /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,9 +126,24 @@
 		4F765EE5291DECD100240DBA /* ControllerUIViewT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerUIViewT.swift; sourceTree = "<group>"; };
 		4F765EE7291DEDD300240DBA /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		4F9077DF291C942D001EE681 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		4FA43580298597BD00A6A859 /* SegundaViaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaViaController.swift; sourceTree = "<group>"; };
+		4FA435842985984E00A6A859 /* SegundaViaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaViaView.swift; sourceTree = "<group>"; };
+		4FA435882985A4A800A6A859 /* PixController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixController.swift; sourceTree = "<group>"; };
+		4FA4358C2985A50F00A6A859 /* PixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixView.swift; sourceTree = "<group>"; };
+		4FA4358E298D77D900A6A859 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4FA43590298D784500A6A859 /* AssetsColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsColor.swift; sourceTree = "<group>"; };
+		4FB0B370297C336E00EFB03B /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		4FB0B373297C3B5D00EFB03B /* PopUpHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpHelper.swift; sourceTree = "<group>"; };
+		4FB0B376297C4F3B00EFB03B /* CustomPopupOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopupOverlayView.swift; sourceTree = "<group>"; };
+		4FB0B379297C5A0500EFB03B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4FB0B37D297C626B00EFB03B /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		4FB0B37F297C636A00EFB03B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		4FB0B382297C653500EFB03B /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		4FC4D54C29736EF800491F20 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		4FC4D55029736F3700491F20 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		4FC4D5522973729700491F20 /* ViewControllerTeste2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTeste2.swift; sourceTree = "<group>"; };
+		4FC74B542983104F00AE2D3F /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		4FC74B562983531200AE2D3F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +193,11 @@
 		4F3091E928B6FE4600111909 /* application */ = {
 			isa = PBXGroup;
 			children = (
+				4FC74B532983101500AE2D3F /* PopUpNotFull */,
+				4FB0B378297C59D900EFB03B /* TesteLogin */,
+				4FB0B375297C4F1000EFB03B /* CustomPopupOverlayView */,
+				4FB0B372297C3B4300EFB03B /* PopUpHelper */,
+				4FB0B36F297C333C00EFB03B /* AlertHelp */,
 				4FC4D54B29736C4200491F20 /* CustomNavigation */,
 				4F765ED1291DEB2800240DBA /* Jardel */,
 				4F9077DE291C9405001EE681 /* StackView */,
@@ -264,6 +299,7 @@
 		4F46BCB1287747C1004951A5 /* Guilda */ = {
 			isa = PBXGroup;
 			children = (
+				4FB0B381297C651E00EFB03B /* Utils */,
 				4F2FF82C28B7B9EB00DAFF1B /* images */,
 				4F46BCDA28774C4A004951A5 /* Common */,
 				4F3091E928B6FE4600111909 /* application */,
@@ -285,6 +321,10 @@
 				4F46BCCB28774BE1004951A5 /* UIView+Corners.swift */,
 				4F46BCCD28774BE1004951A5 /* UIView+DorpShadow.swift */,
 				4F765EE7291DEDD300240DBA /* UIView.swift */,
+				4FB0B37F297C636A00EFB03B /* UIViewController+Extensions.swift */,
+				4FC74B562983531200AE2D3F /* UIViewExtension.swift */,
+				4FA4358E298D77D900A6A859 /* Colors.xcassets */,
+				4FA43590298D784500A6A859 /* AssetsColor.swift */,
 			);
 			name = Entensions;
 			sourceTree = "<group>";
@@ -368,9 +408,126 @@
 			name = StackView;
 			sourceTree = "<group>";
 		};
+		4FA4357F2985979800A6A859 /* TaskDell */ = {
+			isa = PBXGroup;
+			children = (
+				4FA435872985A49500A6A859 /* Pix */,
+				4FA435862985A40A00A6A859 /* SegundaVia */,
+			);
+			name = TaskDell;
+			sourceTree = "<group>";
+		};
+		4FA435822985983700A6A859 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FA43580298597BD00A6A859 /* SegundaViaController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4FA435832985984100A6A859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FA435842985984E00A6A859 /* SegundaViaView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4FA435862985A40A00A6A859 /* SegundaVia */ = {
+			isa = PBXGroup;
+			children = (
+				4FA435832985984100A6A859 /* View */,
+				4FA435822985983700A6A859 /* Controller */,
+			);
+			name = SegundaVia;
+			sourceTree = "<group>";
+		};
+		4FA435872985A49500A6A859 /* Pix */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4358B2985A50000A6A859 /* View */,
+				4FA4358A2985A4AC00A6A859 /* Controller */,
+			);
+			name = Pix;
+			sourceTree = "<group>";
+		};
+		4FA4358A2985A4AC00A6A859 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FA435882985A4A800A6A859 /* PixController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4FA4358B2985A50000A6A859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4358C2985A50F00A6A859 /* PixView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4FB0B36F297C333C00EFB03B /* AlertHelp */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0B370297C336E00EFB03B /* AlertHelper.swift */,
+			);
+			name = AlertHelp;
+			sourceTree = "<group>";
+		};
+		4FB0B372297C3B4300EFB03B /* PopUpHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0B373297C3B5D00EFB03B /* PopUpHelper.swift */,
+			);
+			name = PopUpHelper;
+			sourceTree = "<group>";
+		};
+		4FB0B375297C4F1000EFB03B /* CustomPopupOverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0B376297C4F3B00EFB03B /* CustomPopupOverlayView.swift */,
+			);
+			name = CustomPopupOverlayView;
+			sourceTree = "<group>";
+		};
+		4FB0B378297C59D900EFB03B /* TesteLogin */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0B37C297C624900EFB03B /* Controller */,
+				4FB0B37B297C5A0D00EFB03B /* View */,
+			);
+			name = TesteLogin;
+			sourceTree = "<group>";
+		};
+		4FB0B37B297C5A0D00EFB03B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0B379297C5A0500EFB03B /* RegisterView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4FB0B37C297C624900EFB03B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0B37D297C626B00EFB03B /* RegisterController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4FB0B381297C651E00EFB03B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0B382297C653500EFB03B /* Validation.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		4FC4D54B29736C4200491F20 /* CustomNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				4FA4357F2985979800A6A859 /* TaskDell */,
 				4FC4D54F29736F1300491F20 /* View */,
 				4FC4D54E29736F0000491F20 /* Controller */,
 			);
@@ -392,6 +549,14 @@
 				4FC4D55029736F3700491F20 /* CustomNavigationView.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		4FC74B532983101500AE2D3F /* PopUpNotFull */ = {
+			isa = PBXGroup;
+			children = (
+				4FC74B542983104F00AE2D3F /* PopUpViewController.swift */,
+			);
+			name = PopUpNotFull;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,6 +626,7 @@
 				4F2FF82728B7B50100DAFF1B /* bg_intro.png in Resources */,
 				4F2FF82328B7A85200DAFF1B /* bg_router.png in Resources */,
 				4F2FF82128B7A72000DAFF1B /* TutorialContentCollectionViewCell.xib in Resources */,
+				4FA4358F298D77D900A6A859 /* Colors.xcassets in Resources */,
 				4F46BCBA287747C1004951A5 /* Main.storyboard in Resources */,
 				4F2FF81D28B7A5F700DAFF1B /* TutorialWelcomeCollectionViewCell.xib in Resources */,
 			);
@@ -473,19 +639,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB0B380297C636A00EFB03B /* UIViewController+Extensions.swift in Sources */,
 				4F3091C028B6F83800111909 /* ViewController3.swift in Sources */,
 				4F3EE27B28C6A75B006C9816 /* EditProfileController.swift in Sources */,
 				4F46BCB7287747C1004951A5 /* ViewController.swift in Sources */,
 				4F765ED3291DEB5000240DBA /* ViewControllerT.swift in Sources */,
 				4F765EE8291DEDD300240DBA /* UIView.swift in Sources */,
 				4F765EDC291DEB8700240DBA /* ReceiptCell.swift in Sources */,
+				4FC74B552983104F00AE2D3F /* PopUpViewController.swift in Sources */,
+				4FB0B371297C336E00EFB03B /* AlertHelper.swift in Sources */,
 				4F3EE28228C6A9D9006C9816 /* MaskTextField.swift in Sources */,
+				4FA4358D2985A50F00A6A859 /* PixView.swift in Sources */,
 				4F46BCD328774BE1004951A5 /* UIColor+Colors.swift in Sources */,
+				4FC74B572983531200AE2D3F /* UIViewExtension.swift in Sources */,
 				4F3091BC28B6F7E200111909 /* ViewController1.swift in Sources */,
+				4FA43591298D784500A6A859 /* AssetsColor.swift in Sources */,
+				4FB0B374297C3B5D00EFB03B /* PopUpHelper.swift in Sources */,
+				4FA43581298597BD00A6A859 /* SegundaViaController.swift in Sources */,
 				4F46BCB3287747C1004951A5 /* AppDelegate.swift in Sources */,
 				4F3EE28928C6AACC006C9816 /* String+Separator.swift in Sources */,
 				4F46BCD728774BFB004951A5 /* CodeView.swift in Sources */,
 				4F2FF81C28B7A5F700DAFF1B /* TutorialWelcomeCollectionViewCell.swift in Sources */,
+				4FB0B377297C4F3B00EFB03B /* CustomPopupOverlayView.swift in Sources */,
 				4F3091BE28B6F80C00111909 /* ViewController2.swift in Sources */,
 				4F3EE28028C6A792006C9816 /* EditProfileControllerView.swift in Sources */,
 				4F3091F028B6FF9200111909 /* OnboardingViewController.swift in Sources */,
@@ -498,12 +673,17 @@
 				4F2FF81728B7A50700DAFF1B /* TutorialViewController.swift in Sources */,
 				4F765EDF291DEB8700240DBA /* TransactionCodeCell.swift in Sources */,
 				4F3091EC28B6FEC500111909 /* DemoViewController.swift in Sources */,
+				4FA435852985984E00A6A859 /* SegundaViaView.swift in Sources */,
 				4FC4D5532973729700491F20 /* ViewControllerTeste2.swift in Sources */,
 				4F46BCD128774BE1004951A5 /* UIColor+Hex.swift in Sources */,
+				4FA435892985A4A800A6A859 /* PixController.swift in Sources */,
+				4FB0B383297C653500EFB03B /* Validation.swift in Sources */,
 				4F3091F228B7006800111909 /* LoginViewController.swift in Sources */,
 				4F765EE3291DEC2E00240DBA /* ReceiptHeader.swift in Sources */,
 				4F765EE6291DECD100240DBA /* ControllerUIViewT.swift in Sources */,
+				4FB0B37A297C5A0500EFB03B /* RegisterView.swift in Sources */,
 				4F3EE28528C6AA2F006C9816 /* StringMask.swift in Sources */,
+				4FB0B37E297C626B00EFB03B /* RegisterController.swift in Sources */,
 				4F46BCC92877496F004951A5 /* ControllerUIView.swift in Sources */,
 				4F765EE0291DEB8700240DBA /* ReceiptAboutCell.swift in Sources */,
 				4F765EDE291DEB8700240DBA /* ReceiptWhoSentCell.swift in Sources */,
