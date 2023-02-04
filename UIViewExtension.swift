@@ -24,8 +24,6 @@ extension UIView {
         }
     }
     
-    
-    
     @available(iOS 13, *)
     func showPreview() -> some View {
         // inject self (the current UIView) for the preview

@@ -81,12 +81,10 @@ import UIKit
 
     @objc func primaryButtonTapped() {
          print("primary touch")
-        // Handle primary button tap event
     }
 
     @objc func secondaryButtonTapped() {
         print("secondary touch")
-        // Handle secondary button tap event
     }
 }
 
