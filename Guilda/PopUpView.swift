@@ -12,7 +12,7 @@ import UIKit
      
      lazy var contentView: UIView = {
          var view = UIView()
-         view.backgroundColor = .gainsboro
+         view.backgroundColor = .white
          view.layer.cornerRadius = 20
          view.layer.masksToBounds = false
          view.translatesAutoresizingMaskIntoConstraints = false

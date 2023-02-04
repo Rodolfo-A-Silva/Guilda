@@ -29,6 +29,12 @@ class ViewControllerTeste2: UIViewController {
         //        }
         
         setupSelector()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            let popUpController = PopUpController()
+            popUpController.modalPresentationStyle = .popover
+            self.present(popUpController, animated: true, completion: nil)
+        }
 
     }
     // MARK: - Func

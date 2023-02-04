@@ -7,11 +7,11 @@
 
 import UIKit
 
-class PopUpController: UIViewController {
+public class PopUpController: UIViewController {
     
     var customPopup: CustomPopup? = nil
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
@@ -20,7 +20,7 @@ class PopUpController: UIViewController {
         navigationController?.isNavigationBarHidden = true
         view = CustomPopup()
         customPopup = view as? CustomPopup
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor.blackFourOpacityDisable
     }
 
 }
