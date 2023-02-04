@@ -66,6 +66,7 @@
 		4FA435AE298DC68900A6A859 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA435AD298DC68900A6A859 /* CustomNavigationController.swift */; };
 		4FA435B0298DC73C00A6A859 /* ViewControllerTeste2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA435AF298DC73C00A6A859 /* ViewControllerTeste2.swift */; };
 		4FA435B2298DDA3700A6A859 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA435B1298DDA3700A6A859 /* UIFont+Extension.swift */; };
+		A831FD188B709D607EF805E6 /* Pods_Guilda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798145F4D879DAF103528AE8 /* Pods_Guilda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,9 @@
 		4FA435AD298DC68900A6A859 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		4FA435AF298DC73C00A6A859 /* ViewControllerTeste2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTeste2.swift; sourceTree = "<group>"; };
 		4FA435B1298DDA3700A6A859 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		58D4364AA1096C457DABE25F /* Pods-Guilda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guilda.debug.xcconfig"; path = "Target Support Files/Pods-Guilda/Pods-Guilda.debug.xcconfig"; sourceTree = "<group>"; };
+		798145F4D879DAF103528AE8 /* Pods_Guilda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guilda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A801FB9D7137CD2AF7FE5627 /* Pods-Guilda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guilda.release.xcconfig"; path = "Target Support Files/Pods-Guilda/Pods-Guilda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A831FD188B709D607EF805E6 /* Pods_Guilda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +272,8 @@
 			children = (
 				4F46BCB1287747C1004951A5 /* Guilda */,
 				4F46BCB0287747C1004951A5 /* Products */,
+				F20112EBCD261D382BF44821 /* Pods */,
+				ECB8417426AF038240CE72A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -450,6 +457,24 @@
 			name = PopUpNotFull;
 			sourceTree = "<group>";
 		};
+		ECB8417426AF038240CE72A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798145F4D879DAF103528AE8 /* Pods_Guilda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20112EBCD261D382BF44821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58D4364AA1096C457DABE25F /* Pods-Guilda.debug.xcconfig */,
+				A801FB9D7137CD2AF7FE5627 /* Pods-Guilda.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,9 +482,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F46BCC3287747C3004951A5 /* Build configuration list for PBXNativeTarget "Guilda" */;
 			buildPhases = (
+				E9BED4E9B071045F578108C6 /* [CP] Check Pods Manifest.lock */,
 				4F46BCAB287747C1004951A5 /* Sources */,
 				4F46BCAC287747C1004951A5 /* Frameworks */,
 				4F46BCAD287747C1004951A5 /* Resources */,
+				91DD0434EB2377BDAFBB92FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -524,6 +551,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91DD0434EB2377BDAFBB92FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guilda/Pods-Guilda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guilda/Pods-Guilda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Guilda/Pods-Guilda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BED4E9B071045F578108C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guilda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F46BCAB287747C1004951A5 /* Sources */ = {
@@ -718,6 +787,7 @@
 		};
 		4F46BCC4287747C3004951A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D4364AA1096C457DABE25F /* Pods-Guilda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -746,6 +816,7 @@
 		};
 		4F46BCC5287747C3004951A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A801FB9D7137CD2AF7FE5627 /* Pods-Guilda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
