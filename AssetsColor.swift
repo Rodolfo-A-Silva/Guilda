@@ -9,7 +9,25 @@ import Foundation
 import UIKit
 
 public enum AssetsColor: String {
-    case testeColor
+    case whiteTwo
+    case whiteSmoke
+    case veryLightPinkTwo
+    case gainsboro
+    case veryLightPinkThree
+    case veryLightPinkFour
+    case veryLightPink
+    case brownGrey
+    case grey
+    case brownishGreyTwo
+    case lightGrey
+    case lightBackgorundGrey
+    case backgorundGrey
+    case matterhorn
+    case doveGray
+    case greyishBrown
+    case blackTwo
+    case blackThree
+    case blackFour
  
 }
 
