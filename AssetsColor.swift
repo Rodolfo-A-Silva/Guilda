@@ -22,7 +22,7 @@ public enum AssetsColor: String {
     case lightGrey
     case lightBackgorundGrey
     case backgorundGrey
-    case matterhorn
+    case matterhorn12
     case doveGray
     case greyishBrown
     case blackTwo
