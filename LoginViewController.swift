@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: GuildaUIViewController {
     
     let stackView = UIStackView()
     let emailTextField = UITextField()

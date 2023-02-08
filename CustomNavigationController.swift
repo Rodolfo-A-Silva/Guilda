@@ -7,13 +7,13 @@
 
 import UIKit
 
-class CustomNavigationController: UIViewController {
+class CustomNavigationController: GuildaUIViewController {
 
     // MARK: - Lyfe Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .grey
+        view.backgroundColor = .white
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
         button.setTitle("Click to me", for: .normal)

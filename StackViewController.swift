@@ -7,7 +7,7 @@
 
 import UIKit
 
-class StackViewController: UIViewController {
+class StackViewController: GuildaUIViewController {
     
     static let colors = [
         UIColor.black,

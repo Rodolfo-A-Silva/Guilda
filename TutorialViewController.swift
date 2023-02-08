@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TutorialViewController: UIViewController {
+class TutorialViewController: GuildaUIViewController {
     
     private let bannerWelcomeCell = String(describing: TutorialWelcomeCollectionViewCell.self)
     private let bannerContentCell = String(describing: TutorialContentCollectionViewCell.self)

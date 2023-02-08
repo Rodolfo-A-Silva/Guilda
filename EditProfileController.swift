@@ -6,7 +6,7 @@
 //
 import UIKit
 
-class EditProfileController: UIViewController {
+class EditProfileController: GuildaUIViewController {
     
     // MARK: - Var's
     var editProfileControllerView: EditProfileControllerView? = nil

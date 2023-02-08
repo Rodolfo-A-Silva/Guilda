@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OnboardingViewController: UIViewController {
+class OnboardingViewController: GuildaUIViewController {
     
     let stackView = UIStackView()
     

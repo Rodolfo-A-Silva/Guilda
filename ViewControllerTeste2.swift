@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerTeste2: UIViewController {
+class ViewControllerTeste2: GuildaUIViewController {
     
     var customNavigationView: CustomNavigationView? = nil
     

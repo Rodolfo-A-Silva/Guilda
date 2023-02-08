@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
+class ViewController2: GuildaUIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

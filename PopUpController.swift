@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class PopUpController: UIViewController {
+ class PopUpController: GuildaUIViewController {
     
     var customPopup: CustomPopup? = nil
     

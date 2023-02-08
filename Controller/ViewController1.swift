@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController1: UIViewController {
+class ViewController1: GuildaUIViewController {
 
 
     

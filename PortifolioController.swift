@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PortifolioController: UIViewController {
+class PortifolioController: GuildaUIViewController {
 
     var portifolioView: PortifolioView? = nil
     

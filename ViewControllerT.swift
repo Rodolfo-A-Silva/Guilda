@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerT: UIViewController {
+class ViewControllerT: GuildaUIViewController {
     
     let controllerUIView = ControllerUIViewT()
     
