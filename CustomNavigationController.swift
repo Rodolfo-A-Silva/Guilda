@@ -13,7 +13,7 @@ class CustomNavigationController: GuildaUIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .white
+        view.backgroundColor = .appColors(.veryLightPinkThree)
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
         button.setTitle("Click to me", for: .normal)
@@ -21,9 +21,6 @@ class CustomNavigationController: GuildaUIViewController {
         button.center = view.center
         button.addTarget(self, action: #selector(clickToMe(sender:)), for: .touchUpInside)
         view.addSubview(button)
-        
-        
-        
     }
     
     // MARK: - Func
